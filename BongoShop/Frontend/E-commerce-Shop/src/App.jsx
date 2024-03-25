@@ -1,13 +1,13 @@
 import "./App.css";
-import { Footer } from "./components/Footer/Footer";
-import { Main } from "./components/MainSection/Main";
-import Navbar from "./components/Navbar/Navbar";
+import { Footer } from "./components";
+import { Navbar } from "./components";
+import { Products } from "./components";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Main />
+      <Products />
       <Footer />
     </>
   );

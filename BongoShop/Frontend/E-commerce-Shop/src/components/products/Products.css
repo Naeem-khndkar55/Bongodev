@@ -1,0 +1,13 @@
+.product-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product-items {
+  background-color: blueviolet;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
